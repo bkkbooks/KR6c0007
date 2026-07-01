@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6c0007/v1
+canonical_location: https://kanripo.org/bkk/KR6c0007/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大品經遊意
+  identifiers:
+    alt_id:
+    - T33n1696
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T33/T33n1696.xml
+    old_id: T33n1696
+  edition:
+    short: bkk
+editions:
+- short: 原
+  label: 原
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0007_000.yaml, hash: 'sha256:d3086ae200e8fee51af126c044967639f79f66fd0ef766f3a654c9e3da1ad02d'}
+  - {seq: 1, filename: KR6c0007_001.yaml, hash: 'sha256:b97792c5506bccd7e42b1a1fa320d4ae04f11764a1d640606480939f0a987d33'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0007_001.markers.yaml, hash: 'sha256:c6d01338d4d6367d49310424aea4d92709505abbcff479a2a617983df0919a1c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0007_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7459
+  label: 大品遊意
+  type: juan
+  level: 1
+hash: sha256:b5bd73b130391e41f6443d923b750749078843104c32fb966b5d1803665b22f2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
